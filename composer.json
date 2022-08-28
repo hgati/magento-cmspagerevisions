@@ -1,16 +1,12 @@
 {
-	"name": "meanbee/magento-cmspagerevisions",
+	"name": "hgati/magento-cmspagerevisions",
 	"description": "Maintain a history of CMS pages and static blocks in Magento 1 with this extension.",
-	"homepage": "https://www.meanbee.com/magento-extensions/cms-revisions.html",
+	"homepage": "https://github.com/hgati/magento-cmspagerevisions",
 	"type": "magento-module",
 	"version": "1.1.1",
-	"authors": [
-        {
-		"name": "Meanbee",
-		"email": "hello@meanbee.com"
-        }
-		],
+
 	"require":{
-			"magento-hackathon/magento-composer-installer":"^3.0.0"
-		}
+		"php": ">=7.0.0",
+		"magento-hackathon/magento-composer-installer":"*"
+	}
 }
